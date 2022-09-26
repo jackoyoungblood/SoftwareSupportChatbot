@@ -1,0 +1,5 @@
+IRM->iManage Records Manager
+record->filepart
+file->filepart
+container->box
+IRM Server->IRM CMS Server
