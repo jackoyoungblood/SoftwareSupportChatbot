@@ -88,7 +88,6 @@ def get_openai_response(prompt):
 
 if __name__ == "__main__":
     reader = PdfReader("IRM_Web_Client_User_Guide_Legal_Version_10.3.3.pdf")
-    keyword = "label"
     openai.api_key = os.getenv('OPENAIKEY')
     question = "Q: Can you list the steps to printing an individual label in imanage records manager?"
     toc_dict = get_toc(reader, 4, 8)
